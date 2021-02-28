@@ -12,7 +12,8 @@ class App extends React.Component {
     this.handleChange = this.handleChange.bind(this)
     this.addList = this.addList.bind(this)
     this.deleteCard =this.deleteCard.bind(this)
-  }
+  }  
+  
   handleChange (event) {
     const { name , value } = event.target
     this.setState({
